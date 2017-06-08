@@ -19,3 +19,5 @@ mvn clean package -Pexclude-both-services
 Does not work???
 mvn clean package -Pexclude-demo-service,exclude-mock-service
 
+It does not include both profiles. The first one is not included.
+

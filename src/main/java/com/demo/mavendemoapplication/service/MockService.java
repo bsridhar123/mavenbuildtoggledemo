@@ -1,16 +1,15 @@
-package com.demo.pack1;
+package com.demo.mavendemoapplication.service;
 
 /**
  * Created by Sridhar on 07-06-2017.
  */
-public class MyClass {
-
+public class MockService {
     String name;
     String city;
 
     @Override
     public String toString() {
-        return "MyClass{" +
+        return "DemoService{" +
                 "name='" + name + '\'' +
                 ", city='" + city + '\'' +
                 '}';
@@ -35,13 +34,4 @@ public class MyClass {
     public String sayHello(){
         return "Hello" + name;
     }
-    /*public static void main(String[] arg){
-        MyClass myClass=new MyClass();
-        myClass.setCity("Salem");
-        myClass.setName("Sridhar");
-        System.out.println(myClass.sayHello());
-        System.out.println(myClass);
-        System.out.println("Welcome");
-    }*/
-
-}
+  }

@@ -1,15 +1,16 @@
-package com.demo.pack1;
+package com.demo.mavendemoapplication.service;
 
 /**
  * Created by Sridhar on 07-06-2017.
  */
-public class MyClass2 {
+public class DemoService {
+
     String name;
     String city;
 
     @Override
     public String toString() {
-        return "MyClass{" +
+        return "DemoService{" +
                 "name='" + name + '\'' +
                 ", city='" + city + '\'' +
                 '}';
@@ -34,8 +35,6 @@ public class MyClass2 {
     public String sayHello(){
         return "Hello" + name;
     }
-   /* public static void main(String[] arg){
-        System.out.println("Welcome");
-    }*/
+
 
 }

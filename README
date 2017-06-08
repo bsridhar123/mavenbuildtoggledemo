@@ -1,0 +1,21 @@
+Demo Maven Project
+==================
+
+Using Maven Profiles to exclude main/test java source and other resources
+
+--exclude demo service
+mvn clean package -Pexclude-demo-service
+
+--Build by excluding demo service
+mvn clean package -Pexclude-mock-service
+
+--Build by excluding config resource
+mvn clean package -Pexclude-config-resource
+
+--Build by excluding both services
+mvn clean package -Pexclude-both-services
+
+
+Does not work???
+mvn clean package -Pexclude-demo-service,exclude-mock-service
+
